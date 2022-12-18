@@ -20,7 +20,8 @@ const BoxForm = (props) => {
                     <label><h4>Color</h4></label>
                 </div>
                 <div>
-                    <input type="text" name="color" onChange={(e) => setColor(e.target.value)} value={color} />
+                    <input type="text" name="color" 
+                    onChange={(e) => setColor(e.target.value)} value={color} />
                 </div>
                 <button type="submit">Add Box</button>
             </div>
